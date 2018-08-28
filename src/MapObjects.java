@@ -1,9 +1,9 @@
 
-public abstract class MapObject {
+public abstract class MapObjects {
 	private String name;
 	private int[] position;
 	
-	public MapObject(String name, int[] position) {
+	public MapObjects(String name, int[] position) {
 		this.name = name;
 		this.position = position;
 	}
@@ -16,11 +16,7 @@ public abstract class MapObject {
 		return this.position;
 	}
 	
-	public void setPosition(String direction) {
-		if (direction.equals("North")) {
-			this.position = 
-		}
-		
-		this.position = position;
+	public void setPosition(int[] coord) {
+		this.position = coord;
 	}
 }

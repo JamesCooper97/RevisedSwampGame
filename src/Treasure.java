@@ -1,5 +1,5 @@
 
-public class Treasure extends MapObject{
+public class Treasure extends MapObjects{
 	private int[] position;
 	
 	public Treasure(String name, int[] position) {
